@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<div class="navigation">
+				<div class="navigation__container">
+					<div class="navigation__body">
+						<div class="navigation__content">
+							<button data-goto=".popular" type="button" class="navigation__title">Популярное</button>
+							<button data-goto=".breakfasts" type="button" class="navigation__title">Завтраки</button>
+							<button data-goto=".salads" type="button" class="navigation__title">Салаты</button>
+							<button data-goto=".popular2" type="button" class="navigation__title">Горячие</button>
+							<button data-goto=".breakfasts2" type="button" class="navigation__title">Популярное</button>
+							<button data-goto=".salads2" type="button" class="navigation__title">Популярное</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-watch="navigator" class="products popular">
+				<div class="products__container">
+					<h2 class="title2">Популярное</h2>
+					<div class="products__content scroll">
+						<div class="card-product">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image1.png" alt="">
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+						<div class="card-product">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image1.png" alt="">
+									<div class="card-product__tags">
+										<div class="card-product__tag green">
+											БЛЮДО НЕДЕЛИ
+										</div>
+										<div class="card-product__tag white">
+											—25%
+										</div>
+									</div>
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+						<div class="card-product">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image1.png" alt="">
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-watch="navigator" class="products breakfasts">
+				<div class="products__container">
+					<h2 class="title2">Завтраки</h2>
+					<div class="products__content">
+						<div class="card-product white">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image2.png" alt="">
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star-black.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button btn-black">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+						<div class="card-product white">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image2.png" alt="">
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star-black.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button btn-black">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+						<div class="card-product">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image3.png" alt="">
+									<div class="publicity">
+										реклама
+									</div>
+								</div>
+								<div class="card-product__title">
+									Аренда авто на сутки
+								</div>
+								<div class="card-product__subtitle">
+									Дешево, безопасно, удобно!
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price"></div>
+									<div class="card-product__rating">
+										<span>реклама</span>
+									</div>
+								</div>
+							</div>
+							<a href="#" class="card-product__button button btn-color-black">
+								Забронировать
+							</a>
+						</div>
+						<div class="card-product white">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image2.png" alt="">
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star-black.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button btn-black">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-watch="navigator" class="products salads">
+				<div class="products__container">
+					<h2 class="title2">Салаты</h2>
+					<div class="products__content">
+						<div class="card-product white">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image2.png" alt="">
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star-black.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button btn-black">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+						<div class="card-product white">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image2.png" alt="">
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star-black.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button btn-black">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+						<div class="card-product">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image3.png" alt="">
+									<div class="publicity">
+										реклама
+									</div>
+								</div>
+								<div class="card-product__title">
+									Аренда авто на сутки
+								</div>
+								<div class="card-product__subtitle">
+									Дешево, безопасно, удобно!
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price"></div>
+									<div class="card-product__rating">
+										<span>реклама</span>
+									</div>
+								</div>
+							</div>
+							<a href="#" class="card-product__button button btn-color-black">
+								Забронировать
+							</a>
+						</div>
+						<div class="card-product white">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image2.png" alt="">
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star-black.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button btn-black">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-watch="navigator" class="products popular2">
+				<div class="products__container">
+					<h2 class="title2">Популярное</h2>
+					<div class="products__content scroll">
+						<div class="card-product">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image1.png" alt="">
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+						<div class="card-product">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image1.png" alt="">
+									<div class="card-product__tags">
+										<div class="card-product__tag green">
+											БЛЮДО НЕДЕЛИ
+										</div>
+										<div class="card-product__tag white">
+											—25%
+										</div>
+									</div>
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+						<div class="card-product">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image1.png" alt="">
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-watch="navigator" class="products breakfasts2">
+				<div class="products__container">
+					<h2 class="title2">Завтраки</h2>
+					<div class="products__content">
+						<div class="card-product white">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image2.png" alt="">
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star-black.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button btn-black">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+						<div class="card-product white">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image2.png" alt="">
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star-black.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button btn-black">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+						<div class="card-product">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image3.png" alt="">
+									<div class="publicity">
+										реклама
+									</div>
+								</div>
+								<div class="card-product__title">
+									Аренда авто на сутки
+								</div>
+								<div class="card-product__subtitle">
+									Дешево, безопасно, удобно!
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price"></div>
+									<div class="card-product__rating">
+										<span>реклама</span>
+									</div>
+								</div>
+							</div>
+							<a href="#" class="card-product__button button btn-color-black">
+								Забронировать
+							</a>
+						</div>
+						<div class="card-product white">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image2.png" alt="">
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star-black.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button btn-black">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-watch="navigator" class="products salads2">
+				<div class="products__container">
+					<h2 class="title2">Салаты</h2>
+					<div class="products__content">
+						<div class="card-product white">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image2.png" alt="">
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star-black.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button btn-black">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+						<div class="card-product white">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image2.png" alt="">
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star-black.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button btn-black">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+						<div class="card-product">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image3.png" alt="">
+									<div class="publicity">
+										реклама
+									</div>
+								</div>
+								<div class="card-product__title">
+									Аренда авто на сутки
+								</div>
+								<div class="card-product__subtitle">
+									Дешево, безопасно, удобно!
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price"></div>
+									<div class="card-product__rating">
+										<span>реклама</span>
+									</div>
+								</div>
+							</div>
+							<a href="#" class="card-product__button button btn-color-black">
+								Забронировать
+							</a>
+						</div>
+						<div class="card-product white">
+							<div data-popup="#product1" class="card-product__item">
+								<div class="card-product__image">
+									<img src="../img/image2.png" alt="">
+								</div>
+								<div class="card-product__title">
+									Пицца Маргарита <span>(600гр)</span>
+								</div>
+								<div class="card-product__subtitle">
+									325 ккал / 16 гр / 7 гр / 4,7 гр
+								</div>
+								<div class="card-product__bottom">
+									<div class="card-product__price">
+										590 ₽
+									</div>
+									<div class="card-product__rating">
+										<img src="../img/icons/star-black.svg" alt="">
+										<span>4,9</span>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="card-product__button button btn-black">
+								<span data-popup="#order">Показать в корзине</span>
+								<img src="../img/icons/plus.svg" alt="" class="card-product__plus">
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	<div id="product1" class="card-product-block popup">
+		<div class="popup__content">
+			<div class="popup__container">
+				<button data-close type="button" class="popup__close">
+					<img src="../img/icons/close.svg" alt="">
+				</button>
+				<div class="popup__card-product-block">
+					<div class="card-product-block__item">
+						<div class="card-product-block__image">
+							<img loading="lazy" src="../img/image1.png" alt="">
+						</div>
+						<div class="card-product-block__descr">
+							<div class="card-product-block__title">
+								Ароматный базилик, вяленные помидоры,
+								томатный соус и сыр моцарелла на хрустящем тесте
+								(основа для пиццы 30x30 см)
+							</div>
+							<div class="card-product-block__bottom">
+								<div class="card-product-block__left">
+									<span>
+										на 100 г
+									</span>
+									172 ккал / 7 белки / 4 жиры / 26 углеводы 20 минут
+								</div>
+								<div class="card-product-block__right">
+									<div class="card-product-block__text">
+										<img src="../img/icons/star-orange.svg" alt="">
+										<span>4,9</span>
+									</div>
+									<div class="card-product-block__text">
+										<img src="../img/icons/clock.svg" alt="">
+										<span>20 мин</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-product-block__item">
+						<div class="card-product-block__descr">
+							<div class="card-product-block__name">Добавки к пицце</div>
+							<div class="checkboxes">
+								<div class="checkbox">
+									<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox"
+										value="1" name="form[]">
+									<label for="c_1" class="checkbox__label">
+										<span class="checkbox__icon">
+											<img loading="lazy" src="../img/icons/check2.svg" alt="">
+										</span>
+										<span class="checkbox__text">
+											Не требуется
+										</span>
+									</label>
+								</div>
+								<div class="checkbox">
+									<input id="c_2" data-error="Ошибка" class="checkbox__input" type="checkbox"
+										value="1" name="form[]">
+									<label for="c_2" class="checkbox__label">
+										<span class="checkbox__icon">
+											<img loading="lazy" src="../img/icons/check2.svg" alt="">
+										</span>
+										<span class="checkbox__text">
+											Каперсы (7 г) <span class="cl"> +60 Р</span>
+										</span></label>
+								</div>
+								<div class="checkbox">
+									<input id="c_3" data-error="Ошибка" class="checkbox__input" type="checkbox"
+										value="1" name="form[]">
+									<label for="c_3" class="checkbox__label">
+										<span class="checkbox__icon">
+											<img loading="lazy" src="../img/icons/check2.svg" alt="">
+										</span>
+										<span class="checkbox__text">
+											Пармезан (20 г) <span class="cl"> +90 Р</span>
+										</span></label>
+								</div>
+								<div class="checkbox">
+									<input id="c_4" data-error="Ошибка" class="checkbox__input" type="checkbox"
+										value="1" name="form[]">
+									<label for="c_4" class="checkbox__label">
+										<span class="checkbox__icon">
+											<img loading="lazy" src="../img/icons/check2.svg" alt="">
+										</span>
+										<span class="checkbox__text">
+											Каперсы (7 г) <span class="cl"> +60 Р</span>
+										</span></label>
+								</div>
+								<div class="checkbox">
+									<input id="c_5" data-error="Ошибка" class="checkbox__input" type="checkbox"
+										value="1" name="form[]">
+									<label for="c_5" class="checkbox__label">
+										<span class="checkbox__icon">
+											<img loading="lazy" src="../img/icons/check2.svg" alt="">
+										</span>
+										<span class="checkbox__text">
+											Пармезан (20 г) <span class="cl"> +90 Р</span>
+										</span></label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="order" class="main-order order popup">
+		<div class="popup__content">
+			<div class="popup__container">
+				<div class="popup__item">
+					<div class="popup__top">
+						<button data-close type="button" class="popup__close">
+							<img src="../img/icons/close.svg" alt="">
+						</button>
+						<div class="popup__name">
+							Ваш заказ
+							<span>
+								1400 Р ( <img loading="lazy" src="../img/icons/clock.svg" alt=""> 20-30 минут)
+							</span>
+						</div>
+						<button type="button" class="popup__delete">
+							<img src="../img/icons/delete.svg" alt="">
+						</button>
+					</div>
+					<div class="popup__order">
+						<div class="order__column">
+							<div class="order__image">
+								<img loading="lazy" src="../img/image1.png" alt="">
+							</div>
+							<div class="order__titles">
+								<div class="order__title">
+									Пицца Маргарита <span>(600 гр)</span>
+								</div>
+								<div class="order__price">
+									590 Р
+								</div>
+							</div>
+							<div data-quantity class="quantity">
+								<button data-quantity-minus type="button"
+									class="quantity__button quantity__button_minus"></button>
+								<div class="quantity__input">
+									<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+								</div>
+								<button data-quantity-plus type="button"
+									class="quantity__button quantity__button_plus"></button>
+							</div>
+						</div>
+						<div class="order__column">
+							<div class="order__image">
+								<img loading="lazy" src="../img/image1.png" alt="">
+							</div>
+							<div class="order__titles">
+								<div class="order__title">
+									Пицца Маргарита <span>(600 гр)</span>
+								</div>
+								<div class="order__price">
+									590 Р
+								</div>
+							</div>
+							<div data-quantity class="quantity">
+								<button data-quantity-minus type="button"
+									class="quantity__button quantity__button_minus"></button>
+								<div class="quantity__input">
+									<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+								</div>
+								<button data-quantity-plus type="button"
+									class="quantity__button quantity__button_plus"></button>
+							</div>
+						</div>
+						<div class="order__column">
+							<div class="order__image">
+								<img loading="lazy" src="../img/image1.png" alt="">
+							</div>
+							<div class="order__titles">
+								<div class="order__title">
+									Пицца Маргарита <span>(600 гр)</span>
+								</div>
+								<div class="order__price">
+									590 Р
+								</div>
+							</div>
+							<div data-quantity class="quantity">
+								<button data-quantity-minus type="button"
+									class="quantity__button quantity__button_minus"></button>
+								<div class="quantity__input">
+									<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+								</div>
+								<button data-quantity-plus type="button"
+									class="quantity__button quantity__button_plus"></button>
+							</div>
+						</div>
+						<div class="order__column">
+							<div class="order__image">
+								<img loading="lazy" src="../img/image1.png" alt="">
+							</div>
+							<div class="order__titles">
+								<div class="order__title">
+									Пицца Маргарита <span>(600 гр)</span>
+								</div>
+								<div class="order__price">
+									590 Р
+								</div>
+							</div>
+							<div data-quantity class="quantity">
+								<button data-quantity-minus type="button"
+									class="quantity__button quantity__button_minus"></button>
+								<div class="quantity__input">
+									<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+								</div>
+								<button data-quantity-plus type="button"
+									class="quantity__button quantity__button_plus"></button>
+							</div>
+						</div>
+						<div class="order__column">
+							<div class="order__image">
+								<img loading="lazy" src="../img/image1.png" alt="">
+							</div>
+							<div class="order__titles">
+								<div class="order__title">
+									Пицца Маргарита <span>(600 гр)</span>
+								</div>
+								<div class="order__price">
+									590 Р
+								</div>
+							</div>
+							<div data-quantity class="quantity">
+								<button data-quantity-minus type="button"
+									class="quantity__button quantity__button_minus"></button>
+								<div class="quantity__input">
+									<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+								</div>
+								<button data-quantity-plus type="button"
+									class="quantity__button quantity__button_plus"></button>
+							</div>
+						</div>
+						<div class="order__column">
+							<div class="order__image">
+								<img loading="lazy" src="../img/image1.png" alt="">
+							</div>
+							<div class="order__titles">
+								<div class="order__title">
+									Пицца Маргарита <span>(600 гр)</span>
+								</div>
+								<div class="order__price">
+									590 Р
+								</div>
+							</div>
+							<div data-quantity class="quantity">
+								<button data-quantity-minus type="button"
+									class="quantity__button quantity__button_minus"></button>
+								<div class="quantity__input">
+									<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+								</div>
+								<button data-quantity-plus type="button"
+									class="quantity__button quantity__button_plus"></button>
+							</div>
+						</div>
+						<div class="order__column">
+							<div class="order__image">
+								<img loading="lazy" src="../img/image1.png" alt="">
+							</div>
+							<div class="order__titles">
+								<div class="order__title">
+									Пицца Маргарита <span>(600 гр)</span>
+								</div>
+								<div class="order__price">
+									590 Р
+								</div>
+							</div>
+							<div data-quantity class="quantity">
+								<button data-quantity-minus type="button"
+									class="quantity__button quantity__button_minus"></button>
+								<div class="quantity__input">
+									<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+								</div>
+								<button data-quantity-plus type="button"
+									class="quantity__button quantity__button_plus"></button>
+							</div>
+						</div>
+						<div class="order__column">
+							<div class="order__image">
+								<img loading="lazy" src="../img/image1.png" alt="">
+							</div>
+							<div class="order__titles">
+								<div class="order__title">
+									Пицца Маргарита <span>(600 гр)</span>
+								</div>
+								<div class="order__price">
+									590 Р
+								</div>
+							</div>
+							<div data-quantity class="quantity">
+								<button data-quantity-minus type="button"
+									class="quantity__button quantity__button_minus"></button>
+								<div class="quantity__input">
+									<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+								</div>
+								<button data-quantity-plus type="button"
+									class="quantity__button quantity__button_plus"></button>
+							</div>
+						</div>
+					</div>
+					<div class="popup__warning">
+						<span>Комментарий для вашего комфорта</span>
+						<div class="popup__input">
+							<textarea
+								placeholder="Добавьте исключения по ингредиентам, предупреждения об аллергии, просьбы о теплой воде, оформление раздельного счёта и прочие пожелания по сервису..."></textarea>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="thanks-order" class="thanks-order order popup">
+		<div class="popup__content">
+			<div class="popup__container">
+				<div class="popup__item">
+					<div class="popup__top">
+						<button data-close type="button" class="popup__close">
+							<img src="../img/icons/close.svg" alt="">
+						</button>
+						<div class="popup__name">
+							Спасибо за Ваш заказ.
+							<span>
+								Оцените от 1 до 5 вкус наших блюд и сервис
+							</span>
+						</div>
+						<button type="button" class="popup__check">
+							<img src="../img/icons/check2.svg" alt="">
+						</button>
+					</div>
+					<div class="popup__order">
+						<div class="order__column">
+							<div class="order__image">
+								<img loading="lazy" src="../img/image4.png" alt="">
+							</div>
+							<div class="order__titles">
+								<div class="order__title">
+									Работа официанта
+								</div>
+							</div>
+							<div data-rating="set" class="rating"></div>
+						</div>
+						<div class="order__column">
+							<div class="order__image">
+								<img loading="lazy" src="../img/image1.png" alt="">
+							</div>
+							<div class="order__titles">
+								<div class="order__title">
+									Пицца Маргарита <span>(600 гр)</span>
+								</div>
+								<div class="order__price">
+									590 Р
+								</div>
+							</div>
+							<div data-rating="set" class="rating"></div>
+						</div>
+						<div class="order__column">
+							<div class="order__image">
+								<img loading="lazy" src="../img/image1.png" alt="">
+							</div>
+							<div class="order__titles">
+								<div class="order__title">
+									Пицца Маргарита <span>(600 гр)</span>
+								</div>
+								<div class="order__price">
+									590 Р
+								</div>
+							</div>
+							<div data-rating="set" class="rating"></div>
+						</div>
+						<div class="order__column">
+							<div class="order__image">
+								<img loading="lazy" src="../img/image1.png" alt="">
+							</div>
+							<div class="order__titles">
+								<div class="order__title">
+									Пицца Маргарита <span>(600 гр)</span>
+								</div>
+								<div class="order__price">
+									590 Р
+								</div>
+							</div>
+							<div data-rating="set" class="rating"></div>
+						</div>
+						<div class="order__column">
+							<div class="order__image">
+								<img loading="lazy" src="../img/image1.png" alt="">
+							</div>
+							<div class="order__titles">
+								<div class="order__title">
+									Пицца Маргарита <span>(600 гр)</span>
+								</div>
+								<div class="order__price">
+									590 Р
+								</div>
+							</div>
+							<div data-rating="set" class="rating"></div>
+						</div>
+						<div class="order__column">
+							<div class="order__image">
+								<img loading="lazy" src="../img/image1.png" alt="">
+							</div>
+							<div class="order__titles">
+								<div class="order__title">
+									Пицца Маргарита <span>(600 гр)</span>
+								</div>
+								<div class="order__price">
+									590 Р
+								</div>
+							</div>
+							<div data-rating="set" class="rating"></div>
+						</div>
+						<div class="order__column">
+							<div class="order__image">
+								<img loading="lazy" src="../img/image1.png" alt="">
+							</div>
+							<div class="order__titles">
+								<div class="order__title">
+									Пицца Маргарита <span>(600 гр)</span>
+								</div>
+								<div class="order__price">
+									590 Р
+								</div>
+							</div>
+							<div data-rating="set" class="rating"></div>
+						</div>
+						<div class="order__column">
+							<div class="order__image">
+								<img loading="lazy" src="../img/image1.png" alt="">
+							</div>
+							<div class="order__titles">
+								<div class="order__title">
+									Пицца Маргарита <span>(600 гр)</span>
+								</div>
+								<div class="order__price">
+									590 Р
+								</div>
+							</div>
+							<div data-rating="set" class="rating"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="add" class="popup-button">
+		<div class="popup-button__content">
+			<img loading="lazy" src="../img/icons/check.svg" alt="">
+			<span>Добавлено в заказ</span>
+		</div>
+	</div>
+	<div id="pay" class="popup-button">
+		<div class="shadow"></div>
+		<div class="popup-button__content">
+			<button data-close type="button" class="popup__close">
+				<img src="../img/icons/close2.svg" alt="">
+			</button>
+			<span>Выберите способ оплаты:</span>
+			<div class="popup-button__body">
+				<div data-popup="#pay-check1" class="popup-button__column">
+					<img src="../img/icons/pay1.svg" alt="">
+					<span>Оплатить наличными</span>
+				</div>
+				<div class="popup-button__line"></div>
+				<div data-popup="#pay-check2" class="popup-button__column">
+					<img src="../img/icons/pay2.svg" alt="">
+					<span>Оплатить картой</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="pay-check1" class="popup-button">
+		<div class="shadow"></div>
+		<div class="popup-button__content">
+			<div class="popup-button__image">
+				<img class="popup-button__check3" src="../img/icons/check3.svg" alt="">
+				<img src="../img/icons/pay3.svg" alt="">
+			</div>
+			<span>Выбран способ оплаты</span>
+		</div>
+	</div>
+	<div id="pay-check2" class="popup-button">
+		<div class="shadow"></div>
+		<div class="popup-button__content">
+			<div class="popup-button__image">
+				<img class="popup-button__check3" src="../img/icons/check3.svg" alt="">
+				<img src="../img/icons/pay4.svg" alt="">
+			</div>
+			<span>Выбран способ оплаты</span>
+		</div>
+	</div>
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
